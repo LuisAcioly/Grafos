@@ -1,0 +1,5 @@
+1,0,Rua Monsenhor Aureliano,96,
+1,2,Rua Monsenhor Aureliano,106,
+2,3,Rua Monsenhor Aureliano,125,
+3,4,Rua Monsenhor Aureliano,100,
+4,5,Rua Joao Pomarico,75,

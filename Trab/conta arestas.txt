@@ -1,0 +1,18 @@
+def cria_grafo(listaDeInformações):
+    testes = []
+
+    for linha in listaDeInformações:
+        dados = linha.split(",")
+        
+        palavra = str(dados[0]) + "," + str(dados[1])
+        if(palavra in testes):
+            testes.append(palavra)
+        else:
+            print(palavra)
+
+    return grafo
+
+arquivo = open("testes2.txt.txt")
+listaDeInformações = arquivo.readlines()
+
+grafo = cria_grafo(listaDeInformações)
